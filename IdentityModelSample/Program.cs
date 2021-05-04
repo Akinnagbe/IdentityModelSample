@@ -33,10 +33,7 @@ namespace IdentityModelSample
                     return;
                 }
 
-                //var tokenResponse = await client.RequestDeviceAuthorizationAsync(new DeviceAuthorizationRequest
-                //{
-
-                //});
+               
 
                 var ru = new RequestUrl("https://localhost:44303/connect/authorize");
                 var authorizeUrl = ru.CreateAuthorizeUrl(clientId: "d84d0a966e0b470facebd7a6dfa8b6b1",
